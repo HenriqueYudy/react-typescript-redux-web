@@ -6,5 +6,10 @@ interface OwnProps {
 }
 
 export default function AplicationItem({ application }: OwnProps ){
-return <li>{application.name}</li>
+return (
+    <>
+        <li>TESTE git rename</li>
+
+    </>
+)
 }
